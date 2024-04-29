@@ -22,7 +22,7 @@ Description: The Youth Tobacco Survey (YTS) dataset is derived from a national s
 
 The goal is for the YTS data to help control strategies and initiatives aimed at reducing youth tobacco use. It helps researchers identify trends and high-risk populations to develop targeted interventions for tobacco use prevention among the American youth.
 
-**Specific types of data produced by the Youth Tobacco Survey (YTS) and their meaning:**
+**Specific Types of Data Produced by the Youth Tobacco Survey (YTS)**
 1. Prevalence of Tobacco Use:
    - Current Use
       - Definition: Students who have used tobacco products (cigarettes, e-cigarettes, cigars, smokeless tobacco) in the past 30 days.
