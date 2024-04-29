@@ -21,8 +21,8 @@ Dimensions: 1,048,576R x 31C
 Description: The Youth Tobacco Survey (YTS) dataset is derived from a national survey conducted by the Center for Disease Control (CDC). The survey collects data on tobacco use among youth in middle and high schools across the US from the years of 1999 to 2017, including the use of cigarettes, e-cigarettes, cigars, and smokeless tobacco. Survey questions cover topics such as tobacco use, attitudes toward smoking, exposure to tobacco advertising, and knowledge of the risks associated with tobacco products.
 
 The goal is for the YTS data to help control strategies and initiatives aimed at reducing youth tobacco use. It helps researchers identify trends and high-risk populations to develop targeted interventions for tobacco use prevention among the American youth.
-Specific types of data produced by the Youth Tobacco Survey (YTS) and their meaning.
 
+**Specific types of data produced by the Youth Tobacco Survey (YTS) and their meaning.**
 1. Prevalence of Tobacco Use:
    - Current Use
       - Definition: Students who have used tobacco products (cigarettes, e-cigarettes, cigars, smokeless tobacco) in the past 30 days.
@@ -72,20 +72,20 @@ By analyzing these data points, researchers can gain a comprehensive understandi
 | ------------- | ------------- | ------------- |
 | Year | Date | Age of survey participant |
 | Location Abbr  | String | Abbreviation for the state in which the survey was conducted |
-| Location Desc  | String (Geographic Role - State/Province)  | Full name of the state where the survey was conducted |
+| Location Desc  | String (Geographic Role –> State/Province)  | Full name of the state where the survey was conducted |
 | TopicDesc | String | Description of the specific topic being measured (either Smokeless Tobacco Use or Cigarette use) |
 | MeasureDesc | String | Description of measures in the survey (Smoking Status, User Status, Quit Attempt in Past Year Among Current Cigarette Smokers, Percent of Current Smokers who want to quit) |
 | DataSource | String | The source of the data, in this case, the value is always ‘YTS.’ |
 | Response | String | Response category (Ever, Current, or Frequent) |
 | DataValueUnit | String | Unit of measure for the data values (%) |
 | DataValueType | String | The type of value represented in the dataset |
-| DataValue | Number (decimal) | The actual value of the data point |
+| DataValue | Number (Decimal) | The actual value of the data point |
 | DataValueFootnote Symbol | String | Symbol indicating a footnote related to the data value (*) |
 | DataValueFootnote | String | Explanation of additional information related to a specific data set |
-| DataValueStdErr | Number (decimal) | Standard error associated with the data value, indicating the level of uncertainty or variability |
-| LowConfidenceLimit | Number (decimal) | Lower limit of the confidence interval for the data value |
-| HighConfidenceLimit | Number (decimal) | Upper limit of the confidence interval for the data value |
-| SampleSize | Number (whole) | The size of the sample / number of participants represented in the survey |
+| DataValueStdErr | Number (Decimal) | Standard error associated with the data value, indicating the level of uncertainty or variability |
+| LowConfidenceLimit | Number (Decimal) | Lower limit of the confidence interval for the data value |
+| HighConfidenceLimit | Number (Decimal) | Upper limit of the confidence interval for the data value |
+| SampleSize | Number (Whole) | The size of the sample / number of participants represented in the survey |
 | Gender | String | Gender of those who completed the survey (Male or Female) |
 | Race | String | Race of the surveyed individuals |
 | Age | String | Age of participant |
@@ -95,7 +95,7 @@ By analyzing these data points, researchers can gain a comprehensive understandi
 | StratificationID2 | String | Stratification identifiers for subgroup analysis - Age |
 | StratificationID3 | String | Stratification identifiers for subgroup analysis - Race |
 | StratificationID4 | String | Stratification identifiers for subgroup analysis - Education |
-| DisplayOrder | Number (whole) | Order for displaying data values in visualizations |
+| DisplayOrder | Number (Whole) | Order for displaying data values in visualizations |
 
 
 
