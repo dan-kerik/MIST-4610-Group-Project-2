@@ -1,4 +1,4 @@
-# MIST-4610-Group-Project-2
+# MIST 4610 Group Project 2 (Spring 2024)
 
 ## Team Name: 
 61608 Group 1
