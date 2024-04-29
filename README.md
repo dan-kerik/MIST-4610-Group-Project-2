@@ -97,8 +97,6 @@ By analyzing these data points, researchers can gain a comprehensive understandi
 | StratificationID4 | String | Stratification identifiers for subgroup analysis - Education |
 | DisplayOrder | Number (Whole) | Order for displaying data values in visualizations |
 
-
-
 ## Questions and Importance:
 **Question 1**
 
